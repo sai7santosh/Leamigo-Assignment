@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.bg-container {
+    background-image: url("https://media.istockphoto.com/id/155150766/photo/passenger-jet-airplane-flying-above-clouds.jpg?s=612x612&w=0&k=20&c=DjBqo2rZeQvU-NkC1xRdznpXgcAljXEll3T7SdUFINE=");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 500px;
+}
+
+.error {
+  color: red;
+}
+
+.contentContainer {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.itemsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.resultsContainer {
+  width: 100%;
+  align-self: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.searchButton {
+  background-color: blue;
+  border: none;
+  border-radius: 12px;
+  height: 35px;
+  width: 90px;
+  color: white;
+}
